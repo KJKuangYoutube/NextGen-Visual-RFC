@@ -1,29 +1,86 @@
-# Motivation & Vision: Why I Started This Paradigm Shift
+# Project Supplement: Why We Need an Intuitive Content Carrier That Is Both a Folder and a File
 
-## The Dilemma of Current Digital Content
+## 1. Core Pain Point: Current Content Organization Is Not Intuitive Enough
 
-For a long time, I have felt that traditional digital content organization is overly bloated and unintuitive:
+Most content organization methods available on the market feel insufficiently intuitive.
 
-* **The Folder Mess:** I wanted something that acts as both a folder and a file—a single directory that provides an instant, comprehensive overview of all its contents without getting lost in endless, chaotic subfolders.
-* **The Video Editing Bottleneck:** When editing traditional videos, you are forced to watch through an entire, massive video file just to modify a small detail.
-* **The AI-Era Black Box:** In the AI era, code and text have become searchable, indexed data, but video remains a "black box" that cannot be previewed directly and requires full decoding just to understand what's inside. Without subtitles, humans cannot even tell at a glance what a visual clip is about.
-* **Local Performance Limits:** Local computers often struggle with performance when handling heavy rendering and data processing.
+I have long wanted something that is **both a folder and a file**.  
+A single “folder” that can intuitively display all content at a glance, making browsing and searching easy, instead of getting lost in layers of nested folders that disrupt my train of thought.
 
-## The Core Epiphany: The Network Is a Supercomputer
+Traditional multi-level folder structures easily cause confusion when dealing with complex projects (especially video and multimedia assets). What I want is a carrier that allows me to **see the full picture at a glance**.
 
-Why do we have to struggle through these pain points? **The global network itself is a giant hard drive, and the global network itself is a supercomputer!**
+## 2. Specific Challenges in Video Editing
 
-Under traditional architectures, video files lack standardized slicing. If you want to edit or review them, you must rely on heavy cloud rendering and local processing. We lack a mechanism to directly fetch, link, and edit data simply via a **"File Path + Timestamp (URL Link)"**. 
+In actual video editing work, I repeatedly encounter several problems:
 
-If we can change this, everything will become as simple as AI. We can use "link-based editing" instead of repeatedly processing the same data files, completely bidding farewell to redundancy and stuttering.
+- **Having to watch the entire video before making edits**  
+  Most current tools require you to fully play or load the complete video file before you can locate the parts that need modification. This is highly inefficient.
 
-## The Grand Vision: Scaling From Autonomous Driving to the Entire Web
+- **Subtitles alone are not enough**  
+  Even when subtitles are available, they only correspond to the text. In the AI era, I also need to understand **what the visuals themselves are showing or conveying**, even in segments without subtitles. Pure subtitle information no longer meets the need for visual semantics.
 
-By observing how modern autonomous driving technology handles massive spatial data, I realized this exact philosophy should be extended to the entire Web:
+- **Local performance bottlenecks**  
+  My local computer is not smooth enough when editing. Large files, long timelines, and repeated decoding all become burdens.
 
-1. **Metadata Accuracy and Verifiability:** Link-based positioning ensures the integrity of metadata, guaranteeing from the source that news and content are authentic, verifiable, and queryable while preventing data tampering.
-2. **Copyright and Portrait Rights Protection:** It fundamentally protects creators' copyrights and individual portrait rights at the protocol level.
-3. **The True Value of the Internet:** Just as AI has made code searchable and queryable data, our ultimate mission is to turn all video content into queryable, transparent information streams. Delivering correct, verified information to those who need it is the true ultimate value of the internet.
+## 3. Core Vision: Treating the Network Itself as a Hard Drive + Supercomputer
+
+I began to think about a more fundamental question:
+
+> **The network itself is a massive hard drive, and also a supercomputer.**
+
+But the current problems are:
+
+- Traditional video files are stored as **complete, non-segmentable** units.
+- Fine-grained editing often requires cloud computing resources to first split the files.
+- **It is impossible to directly retrieve the corresponding data segment using “file address + timestamp”.**
+
+This causes a great deal of unnecessary performance overhead — we repeatedly transfer, decode, and process the same complete files instead of fetching only the small segment we actually need.
+
+### Ideal Form
+
+The state I hope to achieve is:
+
+- Being able to directly retrieve the corresponding data segment via **file address + timestamp**.
+- Editing through **links**, rather than repeatedly downloading and processing complete files.
+- No longer repeatedly processing the same data — everything becomes as simple and direct as AI.
+
+This would be truly cool.
+
+## 4. From Autonomous Driving to Expanding Across the Entire Web
+
+After discussing with AI, I learned that:
+
+Current **autonomous driving technology** already uses similar methods to process massive visual data — precisely locating and retrieving frames by time, by frame, and by semantics.
+
+So why not expand this approach to the **entire Web network**?
+
+### The Value of Link-Based Positioning
+
+1. **Ensuring metadata correctness**  
+   Standardized links + timestamps make data sources clear and traceable.
+
+2. **Verifiability of news and real content**  
+   Any claimed visual content can be queried and verified through precise links, improving information credibility.
+
+3. **Protecting creators’ rights**  
+   - Clear copyright ownership  
+   - Protection of individuals’ portrait rights  
+   - Making every citation traceable and authorizable
+
+## 5. The True Value of the Internet
+
+AI has already turned **code** into queryable and searchable structured data.
+
+The next step should be to turn **all video content** into queryable and reviewable information as well.
+
+Accurately and efficiently presenting correct information to the people who truly need it —  
+this is the real value of the Internet.
 
 ---
-*This document outlines the philosophical origins and core motivations behind the [In-Sensor 3s-Chunk Architecture](README.md).*
+
+**In one sentence:**
+
+I want to build a new content carrier and access method —  
+one that displays the full picture as intuitively as a folder, allows precise positioning like a file,  
+retrieves data on demand via “address + timestamp,”  
+and turns the network into a truly editable, verifiable, and rights-protected super hard drive and supercomputer.
